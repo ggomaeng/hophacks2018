@@ -1,0 +1,29 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "expo": "^25.0.0",
+    "firebase": "^4.10.0",
+    "lodash": "^4.17.5",
+    "lz-string": "^1.4.4",
+    "moment": "^2.20.1",
+    "react": "16.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-native-animatable": "^1.2.4",
+    "react-native-elevated-view": "0.0.6",
+    "react-native-qrcode-svg": "^5.0.6",
+    "react-native-snap-carousel": "^3.6.0",
+    "react-navigation": "^1.0.0-beta.27",
+    "victory-native": "^0.17.1"
+  },
+  "devDependencies": {
+    "jest-expo": "^25.0.0"
+  }
+}
